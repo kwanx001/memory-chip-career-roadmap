@@ -1,0 +1,52 @@
+term,chinese,example
+wafer,晶圆,wafer map
+die,裸片或芯粒,good die
+yield,良率,final yield
+bin,测试分类,fail bin
+lot,批次,production lot
+defect,缺陷,defect density
+specification,规格,specification limit
+mean,均值,sample mean
+standard deviation,标准差,process standard deviation
+capability,过程能力,process capability
+leakage,漏电,gate leakage
+breakdown,击穿,dielectric breakdown
+threshold voltage,阈值电压,threshold voltage shift
+retention,保持能力,data retention
+refresh,刷新,DRAM refresh
+volatile,易失性,volatile memory
+nonvolatile,非易失性,nonvolatile memory
+channel,沟道,MOS channel
+gate,栅极,control gate
+source,源极,source terminal
+drain,漏极,drain current
+substrate,衬底,silicon substrate
+dielectric,介质,gate dielectric
+capacitance,电容量,cell capacitance
+resistance,电阻,contact resistance
+inductance,电感,parasitic inductance
+photolithography,光刻,photolithography process
+etch,刻蚀,dry etch
+deposition,沉积,thin film deposition
+implantation,注入,ion implantation
+diffusion,扩散,dopant diffusion
+annealing,退火,thermal annealing
+cleaning,清洗,wafer cleaning
+CMP,化学机械抛光,CMP process
+vacuum,真空,vacuum chamber
+chamber,腔体,process chamber
+sensor,传感器,pressure sensor
+interlock,互锁,safety interlock
+calibration,校准,instrument calibration
+maintenance,维护,preventive maintenance
+downtime,停机时间,reduce downtime
+failure analysis,失效分析,failure analysis report
+root cause,根本原因,root cause verification
+containment,遏制措施,temporary containment
+corrective action,纠正措施,corrective action plan
+reliability,可靠性,reliability test
+traceability,可追溯性,lot traceability
+sampling,抽样,sampling plan
+measurement,测量,measurement system
+repeatability,重复性,gauge repeatability
+

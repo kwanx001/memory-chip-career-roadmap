@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="零基础进入存储芯片行业的3至5年可视化学习路线">
+  <title>芯路计划｜存储芯片入行路线</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-glow page-glow-a"></div>
+  <div class="page-glow page-glow-b"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="返回顶部">
+      <span class="brand-mark"><i></i><i></i><i></i></span>
+      <span>芯路计划</span>
+    </a>
+    <nav aria-label="主导航">
+      <a href="#roadmap">路线</a>
+      <a href="#weeks">12周</a>
+      <a href="#projects">作品</a>
+      <a href="#skills">技能</a>
+    </nav>
+    <button class="reset-button" id="resetProgress" type="button">重置进度</button>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span>专科零基础 · 存储芯片主线</p>
+        <h1>从“什么都不懂”<br>走到<span>半导体技术岗位</span></h1>
+        <p class="hero-intro">
+          一条现实、可执行的3至5年路线：先进入设备、制造、测试或失效分析岗位，
+          再用现场经验和数据能力向工程岗位发展。
+        </p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#weeks">从第1周开始 <span>→</span></a>
+          <a class="text-button" href="#career">查看职业路径</a>
+        </div>
+        <div class="principle">
+          <span>学习原则</span>
+          <strong>先能解释</strong><b>→</b><strong>再能计算</strong><b>→</b><strong>最后验证</strong>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="存储芯片能力成长示意图">
+        <div class="chip-board">
+          <div class="chip-pins pins-top"></div>
+          <div class="chip-pins pins-right"></div>
+          <div class="chip-pins pins-bottom"></div>
+          <div class="chip-pins pins-left"></div>
+          <div class="chip-core">
+            <small>YOUR PATH</small>
+            <strong>MEMORY</strong>
+            <span>DRAM · NAND · TEST</span>
+          </div>
+          <div class="signal signal-one"></div>
+          <div class="signal signal-two"></div>
+          <div class="signal signal-three"></div>
+        </div>
+        <div class="orbit-card orbit-card-a">
+          <span>01</span>
+          <p>基础知识</p>
+        </div>
+        <div class="orbit-card orbit-card-b">
+          <span>02</span>
+          <p>工具项目</p>
+        </div>
+        <div class="orbit-card orbit-card-c">
+          <span>03</span>
+          <p>进入行业</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="snapshot section-shell" aria-label="路线概览">
+      <article>
+        <span class="metric">10–12<small>小时 / 周</small></span>
+        <p>稳定投入比突击更重要</p>
+      </article>
+      <article>
+        <span class="metric">3<small>个作品</small></span>
+        <p>让能力有证据可展示</p>
+      </article>
+      <article>
+        <span class="metric">5<small>类入口岗位</small></span>
+        <p>先入行，再向工程岗位移动</p>
+      </article>
+      <article class="progress-card">
+        <div>
+          <span>当前进度</span>
+          <strong id="progressText">0 / 12 周</strong>
+        </div>
+        <div class="progress-track"><i id="progressBar"></i></div>
+      </article>
+    </section>
+
+    <section class="roadmap section-shell" id="roadmap">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow"><span></span>3至5年路线</p>
+          <h2>每一步都留下<span>可验证结果</span></h2>
+        </div>
+        <p>不追求一开始就成为器件设计工程师。先建立行业入口能力，再用工作经验完成跃迁。</p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-card active">
+          <div class="timeline-year">0–1<small>年</small></div>
+          <span class="phase">PHASE 01</span>
+          <h3>补齐基础</h3>
+          <p>数学、物理、电路、MOS管、Python和基础英文。</p>
+          <ul>
+            <li>解释DRAM与NAND原理</li>
+            <li>完成RC实验与数据绘图</li>
+            <li>安全使用基础仪器</li>
+          </ul>
+        </article>
+        <article class="timeline-card">
+          <div class="timeline-year">1–2<small>年</small></div>
+          <span class="phase">PHASE 02</span>
+          <h3>进入专业</h3>
+          <p>晶圆工艺、存储器结构、测试、SPC和失效分析。</p>
+          <ul>
+            <li>制作wafer map与控制图</li>
+            <li>理解光刻、刻蚀、沉积</li>
+            <li>掌握CPK、8D与DOE</li>
+          </ul>
+        </article>
+        <article class="timeline-card">
+          <div class="timeline-year">2–3<small>年</small></div>
+          <span class="phase">PHASE 03</span>
+          <h3>形成作品</h3>
+          <p>完成三个可复现项目，开始针对性申请入口岗位。</p>
+          <ul>
+            <li>DRAM保持时间仿真</li>
+            <li>晶圆良率数据分析</li>
+            <li>NAND与MLCC失效案例</li>
+          </ul>
+        </article>
+        <article class="timeline-card">
+          <div class="timeline-year">3–5<small>年</small></div>
+          <span class="phase">PHASE 04</span>
+          <h3>完成跃迁</h3>
+          <p>从现场岗位转向测试、良率、产品、FA或助理工艺。</p>
+          <ul>
+            <li>建立一项现场专长</li>
+            <li>积累量化改善成果</li>
+            <li>争取内部转岗机会</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="weeks-section" id="weeks">
+      <div class="section-shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow light"><span></span>立即执行</p>
+            <h2>前12周，建立第一个<span>正反馈</span></h2>
+          </div>
+          <p>点击每周卡片标记完成。进度只保存在你的浏览器，不会上传。</p>
+        </div>
+
+        <div class="week-filters" role="group" aria-label="课程筛选">
+          <button class="filter-button active" data-filter="all" type="button">全部</button>
+          <button class="filter-button" data-filter="foundation" type="button">数理电路</button>
+          <button class="filter-button" data-filter="device" type="button">器件存储</button>
+          <button class="filter-button" data-filter="tool" type="button">工具项目</button>
+        </div>
+
+        <div class="weeks-grid" id="weeksGrid">
+          <button class="week-card" data-week="1" data-category="foundation" type="button"><span>W01</span><h3>单位与电学</h3><p>科学计数法、电压、电流</p><b>20道换算题</b><i>✓</i></button>
+          <button class="week-card" data-week="2" data-category="foundation" type="button"><span>W02</span><h3>函数与欧姆定律</h3><p>一次函数、电阻串并联</p><b>电路计算表</b><i>✓</i></button>
+          <button class="week-card" data-week="3" data-category="foundation" type="button"><span>W03</span><h3>电场与电容</h3><p>电荷、电势、储能</p><b>一页概念图</b><i>✓</i></button>
+          <button class="week-card" data-week="4" data-category="foundation" type="button"><span>W04</span><h3>RC充放电</h3><p>时间常数与曲线</p><b>Excel曲线</b><i>✓</i></button>
+          <button class="week-card" data-week="5" data-category="device" type="button"><span>W05</span><h3>二极管与PN结</h3><p>正偏、反偏、I-V</p><b>手绘I-V图</b><i>✓</i></button>
+          <button class="week-card" data-week="6" data-category="device" type="button"><span>W06</span><h3>MOS管</h3><p>栅、源、漏、沟道</p><b>结构标注图</b><i>✓</i></button>
+          <button class="week-card" data-week="7" data-category="device" type="button"><span>W07</span><h3>数字逻辑</h3><p>二进制、与或非</p><b>真值表</b><i>✓</i></button>
+          <button class="week-card" data-week="8" data-category="device" type="button"><span>W08</span><h3>存储器对比</h3><p>DRAM、SRAM、NAND</p><b>1000字报告</b><i>✓</i></button>
+          <button class="week-card" data-week="9" data-category="tool" type="button"><span>W09</span><h3>Python基础</h3><p>变量、循环、函数</p><b>5个小程序</b><i>✓</i></button>
+          <button class="week-card" data-week="10" data-category="tool" type="button"><span>W10</span><h3>数据统计</h3><p>CSV、均值、标准差</p><b>分析脚本</b><i>✓</i></button>
+          <button class="week-card" data-week="11" data-category="tool" type="button"><span>W11</span><h3>晶圆良率</h3><p>die、bin、wafer map</p><b>运行完整项目</b><i>✓</i></button>
+          <button class="week-card" data-week="12" data-category="tool" type="button"><span>W12</span><h3>复盘与求职</h3><p>技能表、岗位调查</p><b>确定入口方向</b><i>✓</i></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section-shell" id="projects">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow"><span></span>求职证据</p>
+          <h2>三个项目，胜过一串<span>“了解”</span></h2>
+        </div>
+        <p>每个项目都包含问题、数据或假设、可复现步骤、结果解释和局限性。</p>
+      </div>
+
+      <div class="project-showcase">
+        <article class="featured-project">
+          <div class="project-copy">
+            <span class="project-index">PROJECT 01 · 已可运行</span>
+            <h3>晶圆良率分析</h3>
+            <p>用Python处理1,961个模拟die，生成wafer map、bin分布、阈值电压直方图和CPK报告。</p>
+            <div class="project-metrics">
+              <span><strong>92.61%</strong>总良率</span>
+              <span><strong>0.934</strong>Vth CPK</span>
+              <span><strong>4</strong>Bin分类</span>
+            </div>
+            <a href="../projects/wafer-yield-analysis/output/report.md">查看分析报告 →</a>
+          </div>
+          <figure>
+            <img src="../projects/wafer-yield-analysis/output/wafer_map.png" alt="模拟晶圆良率分布图">
+            <figcaption>绿色为通过，橙色区域呈现局部漏电异常簇</figcaption>
+          </figure>
+        </article>
+
+        <div class="project-pair">
+          <article class="project-card">
+            <span class="project-index">PROJECT 02</span>
+            <div class="project-icon capacitor-icon"><i></i></div>
+            <h3>DRAM保持时间仿真</h3>
+            <p>通过LTspice观察存储节点放电，理解电容量、漏电与刷新周期的关系。</p>
+            <ul><li>RC时间常数</li><li>漏电对比</li><li>波形测量</li></ul>
+          </article>
+          <article class="project-card">
+            <span class="project-index">PROJECT 03</span>
+            <div class="project-icon analysis-icon"><i></i><i></i><i></i></div>
+            <h3>8D失效分析</h3>
+            <p>完成NAND编程失败与MLCC绝缘下降案例，训练根因验证思维。</p>
+            <ul><li>问题定义</li><li>对照实验</li><li>防止再发</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="career section-shell" id="career">
+      <div class="career-panel">
+        <div class="career-copy">
+          <p class="eyebrow light"><span></span>现实职业路径</p>
+          <h2>第一份工作不是终点，<br>是进入产业的<span>入口</span></h2>
+          <p>暂不提升学历时，把目标放在能接触设备、测试数据、异常处理和质量方法的岗位。</p>
+        </div>
+        <div class="career-flow">
+          <div class="career-node start"><small>ENTRY</small><strong>入口岗位</strong><span>设备 · 制造 · 封测</span></div>
+          <div class="flow-arrow">→</div>
+          <div class="career-node"><small>GROW</small><strong>现场专长</strong><span>数据 · 排错 · 改善</span></div>
+          <div class="flow-arrow">→</div>
+          <div class="career-node target"><small>TARGET</small><strong>工程岗位</strong><span>测试 · 良率 · FA · 工艺</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section-shell" id="skills">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow"><span></span>最终竞争力</p>
+          <h2>形成自己的<span>能力组合</span></h2>
+        </div>
+        <p>单点知识很容易被替代，现场、数据、专业和表达能力组合起来才有价值。</p>
+      </div>
+
+      <div class="skill-grid">
+        <article><span>01</span><h3>现场专长</h3><p>设备、测试或失效分析，至少有一项能够独立操作与排错。</p><div><i style="width:80%"></i></div></article>
+        <article><span>02</span><h3>数据能力</h3><p>Excel、Python、SQL、SPC与DOE，把异常转化为可分析的问题。</p><div><i style="width:72%"></i></div></article>
+        <article><span>03</span><h3>专业知识</h3><p>MOS器件、DRAM/NAND结构，以及完整的半导体制造流程。</p><div><i style="width:68%"></i></div></article>
+        <article><span>04</span><h3>交叉优势</h3><p>MLCC、封装供电与电容失效，为先进封装方向留下接口。</p><div><i style="width:58%"></i></div></article>
+        <article><span>05</span><h3>技术英文</h3><p>能阅读datasheet、设备手册、测试条件与基础英文资料。</p><div><i style="width:52%"></i></div></article>
+      </div>
+    </section>
+
+    <section class="closing section-shell">
+      <p>今天不需要懂完整个半导体行业。</p>
+      <h2>你只需要完成<span>第一周。</span></h2>
+      <a class="primary-button" href="#weeks">打开第1周任务 <span>→</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <span>芯路计划 · 存储芯片入行路线</span>
+    <span>进度数据保存在本地浏览器</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

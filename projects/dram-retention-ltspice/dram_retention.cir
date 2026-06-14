@@ -1,0 +1,23 @@
+* Simplified DRAM retention model for learning
+* Pulse charges both storage nodes through idealized access switches.
+
+.param Ccell=30f
+.param Rgood=100G
+.param Rleaky=10G
+
+Vwrite write 0 PULSE(0 1 0 1n 1n 100n 10m)
+Sgood write storage_good control 0 swmod
+Sleaky write storage_leaky control 0 swmod
+Vcontrol control 0 PULSE(1 0 0 1n 1n 100n 10m)
+
+Cgood storage_good 0 {Ccell}
+Cleaky storage_leaky 0 {Ccell}
+Rgood_leak storage_good 0 {Rgood}
+Rbad_leak storage_leaky 0 {Rleaky}
+
+.model swmod SW(Ron=10 Roff=1T Vt=0.5 Vh=0)
+.tran 0 20m 0 1u
+.meas tran Tgood WHEN V(storage_good)=0.5 FALL=1
+.meas tran Tleaky WHEN V(storage_leaky)=0.5 FALL=1
+.end
+
